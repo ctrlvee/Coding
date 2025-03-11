@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E54oDC+WTLU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\virtfer\\Documents\\Coding\\CodingLogger\\Coding\\Coding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\virtfer\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512",
+    "C:\\Users\\virtfer\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.2\\system.configuration.configurationmanager.9.0.2.nupkg.sha512",
+    "C:\\Users\\virtfer\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.2\\system.diagnostics.eventlog.9.0.2.nupkg.sha512",
+    "C:\\Users\\virtfer\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.2\\system.security.cryptography.protecteddata.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
