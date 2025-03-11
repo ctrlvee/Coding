@@ -1,8 +1,9 @@
+namespace CodingLogger.Coding.Controllers;
+
 internal interface IBaseController {
 
-    void ViewLogs();
-    void AddStart();
-    void AddEnd();
-    void DeleteLog();
+    void ViewItems();
+    void AddItem();
+    void DeleteItem();
 
 }

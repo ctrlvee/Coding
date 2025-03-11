@@ -21,3 +21,4 @@ C:\Users\virtfer\Documents\Coding\CodingLogger\Coding\obj\Debug\net9.0\refint\Co
 C:\Users\virtfer\Documents\Coding\CodingLogger\Coding\obj\Debug\net9.0\Coding.pdb
 C:\Users\virtfer\Documents\Coding\CodingLogger\Coding\obj\Debug\net9.0\Coding.genruntimeconfig.cache
 C:\Users\virtfer\Documents\Coding\CodingLogger\Coding\obj\Debug\net9.0\ref\Coding.dll
+C:\Users\virtfer\Documents\Coding\CodingLogger\Coding\obj\Debug\net9.0\Coding.sourcelink.json
