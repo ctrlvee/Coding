@@ -57,6 +57,14 @@
             "System.COnfiguration.ConfigurationManager": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
             }
           },
           "imports": [

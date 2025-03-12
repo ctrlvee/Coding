@@ -1,2 +1,21 @@
 using Spectre.Console;
-using CodingLogger.Coding.Controllers;
+
+namespace CodingLogger.Coding.Controllers;
+
+internal class SessionController : IBaseController
+{
+    public void AddItem()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DeleteItem()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void ViewItems()
+    {
+        throw new NotImplementedException();
+    }
+}

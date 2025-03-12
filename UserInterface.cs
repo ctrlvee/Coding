@@ -1,12 +1,18 @@
 using Spectre.Console;
 using CodingLogger.Coding.Controllers;
 using static CodingLogger.Coding.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Configuration;
+using System.Runtime.CompilerServices;
 
 namespace CodingLogger.Coding; 
 
 internal class UserInterface {
 
+    private DatabaseController _databaseController = new();
     internal void MainMenu() {
+
+
         Console.Clear();
         while (true) {
             var actionChoice = AnsiConsole.Prompt(
@@ -40,5 +46,6 @@ internal class UserInterface {
     private void DeleteItem() {
 
     }
+
 
 }

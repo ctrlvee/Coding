@@ -1,11 +1,13 @@
 namespace CodingLogger.Coding;
 
-class UserInput {
+class UserInput
+{
 
-    internal static string GetDateInput() {
+    internal static string GetDateInput()
+    {
         string dateInput = Console.ReadLine();
-        
+
 
         return dateInput;
-}
+    }
 }
