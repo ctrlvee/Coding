@@ -1,17 +1,20 @@
 using System.Diagnostics.Eventing.Reader;
+using Spectre.Console;
 
 namespace CodingLogger.Models;
 
-internal abstract class CodingSession {
-    public int Id {get;set;}
-    public string StartTime {get;set;}
-    public string EndTime {get;set;}
+internal class CodingSession {
+    internal int Id {get;set;}
+    internal string StartTime {get;set;}
+    internal string EndTime {get;set;}
 
-    protected CodingSession(int id, string start, string end) {
+    internal CodingSession(int id, string start, string end) {
         Id = id;
         StartTime = start;
         EndTime = end;
     }
 
-    public abstract void DisplayLogs();
+    public void DisplayDetails() {
+        Console.WriteLine("Displaying Details");
+    }
 }
