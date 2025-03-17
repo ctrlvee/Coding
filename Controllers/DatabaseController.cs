@@ -2,6 +2,8 @@ using System;
 using System.ComponentModel;
 using System.Data.SQLite;
 using System.Globalization;
+using System.Runtime.InteropServices;
+
 // using Microsoft.Data.Sqlite;
 using Microsoft.VisualBasic.FileIO;
 
@@ -35,5 +37,20 @@ internal class DatabaseController {
         
     }
 
-    
+    internal void CreateMockData() {
+        
+    }
+
+    private void ViewItems() {
+
+    }
+
+    private void AddItem() {
+
+    }
+
+    private void DeleteItem() {
+
+    }
+
 }

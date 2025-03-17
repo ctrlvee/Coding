@@ -12,7 +12,6 @@ internal class UserInterface {
     private DatabaseController _databaseController = new();
     internal void MainMenu() {
 
-
         Console.Clear();
         while (true) {
             var actionChoice = AnsiConsole.Prompt(
