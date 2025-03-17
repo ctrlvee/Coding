@@ -8,7 +8,7 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace CodingLogger.Coding.Controllers;
 
-internal class Database {
+internal class DatabaseController {
     
     static string connectionString = @"Data Source=codeLogger.db";
 
